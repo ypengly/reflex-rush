@@ -1,0 +1,46 @@
+:root {
+  /* Surfaces */
+  --bg-0: #050813;
+  --bg-1: #0a1022;
+  --panel: rgba(14, 22, 46, 0.78);
+  --border: rgba(130, 170, 255, 0.18);
+  --border-strong: rgba(130, 170, 255, 0.34);
+
+  /* Accents */
+  --lime: #b6ff3b;
+  --lime-ink: #0b1500;
+  --cyan: #22e4ff;
+  --violet: #9b6bff;
+  --success: #2cf58a;
+  --error: #ff6b78;
+
+  /* Text */
+  --text: #eef3ff;
+  --muted: #9fabc7;
+
+  /* Arena states */
+  --wait-1: #cf2c42;
+  --wait-2: #7d1224;
+  --go-1: #2cf58a;
+  --go-2: #12b866;
+  --go-ink: #031a0d;
+
+  /* Shape and glow */
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 10px;
+  --glow-lime: 0 0 24px rgba(182, 255, 59, 0.35);
+  --glow-cyan: 0 0 24px rgba(34, 228, 255, 0.3);
+
+  /* Type */
+  --font-display: 'Orbitron', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  /* Safe areas for notched phones */
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+
+  color-scheme: dark;
+}
